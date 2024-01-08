@@ -45,19 +45,19 @@ public class AutomationTestChallenge {
     private Response response;
    	private RequestSpecification httpRequest;
 
-    String generatedFirstName;
-    String generatedLastName;
-    String generatedAddress;
-    String generatedCity;
-    String generatedState;
-    String generatedPhoneNumber;
-    String generatedZipCode;
-    String generatedSSN;
-    String generatedPassword;
-    String newAccountNumber;
-    String newAccountNumberViaAPI;
-    String accountType;
-    String customerId;
+    private String generatedFirstName;
+    private String generatedLastName;
+    private String generatedAddress;
+    private String generatedCity;
+    private String generatedState;
+    private String generatedPhoneNumber;
+    private String generatedZipCode;
+    private String generatedSSN;
+    private String generatedPassword;
+    private String newAccountNumber;
+    private String newAccountNumberViaAPI;
+    private String accountType;
+    private String customerId;
     
 	@Given("User navigates to Open New Account Page")
 	public void user_navigates_to_open_new_account_page() {
