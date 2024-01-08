@@ -351,7 +351,7 @@ public class AutomationTestChallenge {
         httpRequest = RestAssured.given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
-                .baseUri(baseUrl+ endpointWithAccountId + amount).log().all();
+                .baseUri(baseUrl+ endpointWithAccountId + amount);
     }
     
     @Then("User validates {string} account created.")
